@@ -17,7 +17,7 @@ public class SeguroTest {
     @Test
     public void valorAcimaDoLimite(){
 
-        String resultado = Seguro.verificarCobertura(1000000);
+        String resultado = Seguro.verificarCobertura(1000);
         assertEquals("Valor fora do limite de cobertura do FGC!", resultado);
     }
 
